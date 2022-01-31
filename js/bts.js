@@ -1,4 +1,3 @@
-
 var usuarios = [
     {
         number : 1,
@@ -151,3 +150,5 @@ function presentacion(){
 function BONUS(){
     window.location="bonus.html";
 }
+
+
