@@ -28,7 +28,7 @@ var usuarios = [
         name : 'Limber(J-hope)',
         seleccion : 'rl',
         all : 't',
-        hobby : ['bailar', 'jugar', 'estudiar','rapear','mirar videos'],
+        hobby : ['bailar', 'jugar', 'estudiar','hiphop','mirar videos'],
         avatar : '4.jpg'
     },
     {
@@ -121,34 +121,34 @@ buscar2.addEventListener('click',function(){
 );
 });
 function redireccionar1(){
-    window.location="yam.html";
+    window.location="../direct/yam.html";
 }
 function redireccionar2(){
-    window.location="ram.html";
+    window.location="../direct/ram.html";
 }
 function redireccionar3(){
-    window.location="kev.html";
+    window.location="../direct/kev.html";
 }
 function redireccionar4(){
-    window.location="lim.html";
+    window.location="../direct/lim.html";
 }
 function redireccionar5(){
-    window.location="jhey.html";
+    window.location="../direct/jhey.html";
 }
 function redireccionar6(){
-    window.location="matt.html";
+    window.location="../direct/matt.html";
 }
 function redireccionar7(){
-    window.location="yerald.html";
+    window.location="../direct/yerald.html";
 }
 function van(){
-    window.location="van.html";
+    window.location="../direct/van.html";
 }
 function presentacion(){
-    window.location="video.html";
+    window.location="../direct/video.html";
 }
 function BONUS(){
-    window.location="bonus.html";
+    window.location="../direct/bonus.html";
 }
 
 
