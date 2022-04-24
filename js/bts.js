@@ -124,31 +124,31 @@ function redireccionar1(){
     window.location="../direct/yam.html";
 }
 function redireccionar2(){
-    window.location="./direct/ram.html";
+    window.location="../direct/ram.html";
 }
 function redireccionar3(){
-    window.location="./direct/kev.html";
+    window.location="../direct/kev.html";
 }
 function redireccionar4(){
-    window.location="./direct/lim.html";
+    window.location="../direct/lim.html";
 }
 function redireccionar5(){
-    window.location="./direct/jhey.html";
+    window.location="../direct/jhey.html";
 }
 function redireccionar6(){
-    window.location="./direct/matt.html";
+    window.location="../direct/matt.html";
 }
 function redireccionar7(){
-    window.location="./direct/yerald.html";
+    window.location="../direct/yerald.html";
 }
 function van(){
-    window.location="./direct/van.html";
+    window.location="../direct/van.html";
 }
 function presentacion(){
-    window.location="./direct/video.html";
+    window.location="../direct/video.html";
 }
 function BONUS(){
-    window.location="./direct/bonus.html";
+    window.location="../direct/bonus.html";
 }
 
 
