@@ -78,7 +78,7 @@ window.addEventListener('load', function(){
             </div><button onclick="redireccionar'+usuarios[i].number+'()">ver perfil</button></div>';
         }else if(lin == usuarios[i].all){
             resultsHtml1 += '<div class="person-row">\
-        <img src="../bt21/'+usuarios[i].avatar+'" width="200px" height="200px"/>\
+        <img src="./bt21/'+usuarios[i].avatar+'" width="200px" height="200px"/>\
         <div class="person-info">\
             <div><h1><i>' + usuarios[i].name +'</i></h1></div>\
             <div>'+usuarios[i].hobby+'</div></div>\
@@ -106,7 +106,7 @@ buscar2.addEventListener('click',function(){
     for (var i = 0; i < numIntegrantes2; i++) {
         if (inte == usuarios[i].name) {
             resultsHtml2 += '<div class="person-row">\
-            <img src="../bt21/'+usuarios[i].avatar+'" width="200px" height="200px"/>\
+            <img src="./bt21/'+usuarios[i].avatar+'" width="200px" height="200px"/>\
             <div class="person-info">\
                 <div>' + usuarios[i].name +'</div>\
                 <div>'+usuarios[i].hobby+'</div>\
