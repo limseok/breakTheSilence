@@ -71,14 +71,14 @@ window.addEventListener('load', function(){
     for(var i = 0; i < numIntegrantes1 ; i++){
         if (lin == usuarios[i].seleccion) {
             resultsHtml1 += '<div class="person-row">\
-            <img src="./bt21/'+usuarios[i].avatar+'" width="200px" height="200px"/>\
+            <img src="../bt21/'+usuarios[i].avatar+'" width="200px" height="200px"/>\
             <div class="person-info">\
                 <div><h1><i>' + usuarios[i].name +'</i></h1></div>\
                 <div>'+usuarios[i].hobby+'</div>\
             </div><button onclick="redireccionar'+usuarios[i].number+'()">ver perfil</button></div>';
         }else if(lin == usuarios[i].all){
             resultsHtml1 += '<div class="person-row">\
-        <img src="./bt21/'+usuarios[i].avatar+'" width="200px" height="200px"/>\
+        <img src="../bt21/'+usuarios[i].avatar+'" width="200px" height="200px"/>\
         <div class="person-info">\
             <div><h1><i>' + usuarios[i].name +'</i></h1></div>\
             <div>'+usuarios[i].hobby+'</div></div>\
