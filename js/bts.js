@@ -121,7 +121,7 @@ buscar2.addEventListener('click',function(){
 );
 });
 function redireccionar1(){
-    window.location="./direct/yam.html";
+    window.location="../direct/yam.html";
 }
 function redireccionar2(){
     window.location="./direct/ram.html";
